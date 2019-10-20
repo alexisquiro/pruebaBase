@@ -1,13 +1,14 @@
 package conexion;
 import java.sql.*;
 public class Base {
-	private String url = null;// "jdbc:postgresql://localhost:0000/midatabase";ejemplo 
-    private String user =null;// el usuario de la base 
-    private String password= null;// y la contraseña
+	private String url = "jdbc:postgresql://localhost:5432/Proyecto";// "jdbc:postgresql://localhost:0000/midatabase";ejemplo 
+    private String user ="alexis";// el usuario de la base 
+    private String password= "alexis";// y la contraseña
 	private Connection conn = null;
 	private Statement state=null;
+
+    
 	
-     
      //getters and setters
 
 	public Statement getState() {
